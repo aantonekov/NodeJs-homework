@@ -1,0 +1,6 @@
+const info = require('./infopc');
+
+
+
+
+
