@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>valid</title>
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+  <body>
+    <form id = "form" method="POST" action="/views/index.ejs">
+      <input type="text" class="name" name="nam"  placeholder="Name"><br><br>
+      <input type="text" class="surname" name="surname" placeholder="Surname"><br><br>
+      <input class="email" name="email" placeholder="E-mail" type="email"><br><br>
+      <input type="text" class="gender" name="gender" placeholder="Gender"><br><br>
+      <input type="text" class="ipAdress" name="ipAdress" placeholder="ipAdress"><br><br>
+      <button type="submit" class="btn">Send form</button>
+  </form>
+
+  <div class="result"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  <script src="/js/main.js"></script>
+  </body>
+</html>
