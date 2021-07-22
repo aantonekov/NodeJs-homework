@@ -1,0 +1,62 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+/* Header====== */
+header {
+    background-color: RGB(38, 38, 38) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header_a{
+    display: flex;
+    align-items: center;
+}
+/* header_section===== */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.first_text{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.header_img {
+    width: 130px;
+    height: 32px;
+    margin-right: 10px;
+}
+.caffe_text {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+/* meny_cell==== */
+.meny_cell{
+    background-color: gold;
+    
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meny_cafe_text{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.button_a{
+    text-decoration: none;
+    color: #fff;
+}
+.button_a:hover{
+    color:deeppink;
+}
